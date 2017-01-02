@@ -1,0 +1,15 @@
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\TV_Show_Tracker.dll
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\TV_Show_Tracker.pdb
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\obj\Debug\TV_Show_Tracker.csprojResolveAssemblyReference.cache
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\obj\Debug\TV_Show_Tracker.dll
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\obj\Debug\TV_Show_Tracker.pdb
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\obj\Debug\TV_Show_Tracker.dll.mdb
+C:\Users\makay\Source\Repos\TV-Show-Tracker\TV Show Tracker\TV_Show_Tracker\bin\Debug\TV_Show_Tracker.dll.mdb
