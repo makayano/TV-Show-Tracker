@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Xamarin.Forms;
-
 namespace TV_Show_Tracker
 {
     public class App : Application
@@ -26,7 +24,6 @@ namespace TV_Show_Tracker
                     }
                 }
             };
-
             MainPage = new NavigationPage(content);
         }
 

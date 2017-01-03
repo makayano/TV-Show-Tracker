@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using TV_Show_Tracker.Droid.Data;
 
 namespace TV_Show_Tracker.Droid
 {
@@ -19,7 +21,17 @@ namespace TV_Show_Tracker.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            TVMazeRESTService api = new TVMazeRESTService();
+            OnAppearing(api);
             LoadApplication(new App());
+        }
+        protected async void OnAppearing(TVMazeRESTService api)
+        {
+            List<string> result = await api.RefreshDataAsync();
+            foreach(var a in result)
+            {
+                Console.WriteLine(a);
+            }
         }
     }
 }

@@ -1,7 +1,3 @@
-TV_Show_Tracker.Droid.Activity1, TV_Show_Tracker.Droid;md575305f34baeb0a8e3a3bd0dd1da74e19.Activity1
-TV_Show_Tracker.Droid.Activity1, TV_Show_Tracker.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md575305f34baeb0a8e3a3bd0dd1da74e19.Activity1
-TV_Show_Tracker.Droid.Activity1;md575305f34baeb0a8e3a3bd0dd1da74e19.Activity1
-tv_show_tracker.droid.Activity1;md575305f34baeb0a8e3a3bd0dd1da74e19.Activity1
 TV_Show_Tracker.Droid.MainActivity, TV_Show_Tracker.Droid;md575305f34baeb0a8e3a3bd0dd1da74e19.MainActivity
 TV_Show_Tracker.Droid.MainActivity, TV_Show_Tracker.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md575305f34baeb0a8e3a3bd0dd1da74e19.MainActivity
 TV_Show_Tracker.Droid.MainActivity;md575305f34baeb0a8e3a3bd0dd1da74e19.MainActivity
