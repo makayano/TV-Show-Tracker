@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using TV_Show_Tracker.Droid.Model;
 
 namespace TV_Show_Tracker.Droid.Data
 {
@@ -12,7 +13,7 @@ namespace TV_Show_Tracker.Droid.Data
         {
             restService = service;
         }
-        public Task<List<string>> GetShowsAsync()
+        public Task<List<JSONResponse>> GetShowsAsync()
         {
             return restService.RefreshDataAsync();
         }

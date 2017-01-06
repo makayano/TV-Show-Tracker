@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using TV_Show_Tracker.Droid.Data;
+using TV_Show_Tracker.Droid.Model;
 
 namespace TV_Show_Tracker.Droid
 {
@@ -27,7 +28,7 @@ namespace TV_Show_Tracker.Droid
         }
         protected async void OnAppearing(TVMazeRESTService api)
         {
-            List<string> result = await api.RefreshDataAsync();
+            List<JSONResponse> result = await api.RefreshDataAsync();
             foreach(var a in result)
             {
                 Console.WriteLine(a);
