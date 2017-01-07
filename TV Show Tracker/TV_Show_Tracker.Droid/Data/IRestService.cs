@@ -7,6 +7,6 @@ namespace TV_Show_Tracker.Droid.Data
 {
     public interface IRestService
     {
-        Task<List<JSONResponse>> RefreshDataAsync();
+        Task<List<RootObject>> RefreshDataAsync();
     }
 }

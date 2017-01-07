@@ -28,10 +28,10 @@ namespace TV_Show_Tracker.Droid
         }
         protected async void OnAppearing(TVMazeRESTService api)
         {
-            List<JSONResponse> result = await api.RefreshDataAsync();
+            List<RootObject> result = await api.RefreshDataAsync();
             foreach(var a in result)
             {
-                Console.WriteLine(a);
+                System.Diagnostics.Debug.WriteLine(a);
             }
         }
     }

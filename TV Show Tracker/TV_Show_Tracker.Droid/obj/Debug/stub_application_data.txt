@@ -1,0 +1,2 @@
+android.app.Application
+TV_Show_Tracker.Droid

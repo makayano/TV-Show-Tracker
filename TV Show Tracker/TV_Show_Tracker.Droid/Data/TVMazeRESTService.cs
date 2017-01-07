@@ -15,17 +15,15 @@ namespace TV_Show_Tracker.Droid.Data
     {
         HttpClient client;
 
-        public List<JSONResponse> Items { get; private set; }
+        public List<RootObject> showList { get; private set; }
 
         public TVMazeRESTService()
         {
             client = new HttpClient();
             client.MaxResponseContentBufferSize = 256000;
         }
-        public async Task<List<JSONResponse>> RefreshDataAsync()
+        public async Task<List<RootObject>> RefreshDataAsync()
         {
-            Items = new List<JSONResponse>();
-
             //var uri = new Uri(string.Format(Constants.RestUrl, string.Empty));
             var uri = new Uri(string.Format("http://api.tvmaze.com/search/shows?q=girls", string.Empty));
             try
@@ -33,15 +31,15 @@ namespace TV_Show_Tracker.Droid.Data
                 var response = await client.GetAsync(uri);
                 if (response.IsSuccessStatusCode)
                 {
-                    var content = await response.Content.ReadAsStringAsync();
-                    Items = JsonConvert.DeserializeObject<List<JSONResponse>>(content);
+                    string content = await response.Content.ReadAsStringAsync();
+                    showList = JsonConvert.DeserializeObject<List<RootObject>>(content);
                 }
             }
             catch (Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine("@             Error {0}", ex.Message);
             }
-            return Items;
+            return showList;
         }
     }
 }

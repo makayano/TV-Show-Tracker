@@ -13,7 +13,7 @@ namespace TV_Show_Tracker.Droid.Data
         {
             restService = service;
         }
-        public Task<List<JSONResponse>> GetShowsAsync()
+        public Task<List<RootObject>> GetShowsAsync()
         {
             return restService.RefreshDataAsync();
         }
