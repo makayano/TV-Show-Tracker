@@ -111,6 +111,7 @@
     <Compile Include="Data\TVMazeRESTService.cs" />
     <Compile Include="Data\TVShowManager.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MasterDetail.cs" />
     <Compile Include="Model\TVShowModel.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

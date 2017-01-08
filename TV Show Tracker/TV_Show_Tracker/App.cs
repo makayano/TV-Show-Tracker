@@ -3,30 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Xamarin.Forms;
+
 namespace TV_Show_Tracker
 {
     public class App : Application
     {
+        //public App()
+        //{
+        //    // The root page of your application
+        //    var content = new ContentPage
+        //    {
+        //        Title = "TV_Show_Tracker",
+        //        Content = new StackLayout
+        //        {
+        //            VerticalOptions = LayoutOptions.Center,
+        //            Children = {
+        //                new Label {
+        //                    HorizontalTextAlignment = TextAlignment.Center,
+        //                    Text = "Welcome to Xamarin Forms!"
+        //                }
+        //            }
+        //        }
+        //    };
+        //    MainPage = new NavigationPage(content);
+        //}
         public App()
         {
-            // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "TV_Show_Tracker",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
-            MainPage = new NavigationPage(content);
+            MainPage = new MasterPage();
         }
-
         protected override void OnStart()
         {
             // Handle when your app starts
